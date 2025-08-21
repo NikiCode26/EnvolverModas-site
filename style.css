@@ -24,12 +24,12 @@ body{
   width:min(1120px, 92vw);
   margin-inline:auto;
 }
-.section{ padding: 90px 0 80px; }
+.section{ padding: 90 px 0 80 px; }
 .section.alt{ background:linear-gradient(180deg, transparent 0, rgba(138,118,48,.08) 100%); }
 
 /* Header / NavBar (única barra no header) */
 .site-header{
-  position:fixed; top:0px; z-index:50;
+  position:fixed; top:0 px; z-index:50;
   width: 100%;
   backdrop-filter:saturate(140%) blur(8px);
   background:rgba(12,12,12,.75);
