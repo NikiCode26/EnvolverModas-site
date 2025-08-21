@@ -101,11 +101,11 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   position:relative;
   border-radius: var(--radius);
   background: linear-gradient(135deg, var(--gold) 0%, #5d4f1d 100%);
-  padding: 28px;
-  min-height: 340px;
+  padding: 28 px;
+  min-height: 340 px;
   display:flex; align-items:center; justify-content:center;
   overflow:hidden;
-  box-shadow: 0 10px 40px rgba(0,0,0,.35);
+  box-shadow:#7a757559;
  
 }
 .octo{
