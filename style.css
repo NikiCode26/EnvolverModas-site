@@ -105,7 +105,7 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   min-height: 340 px;
   display:flex; align-items:center; justify-content:center;
   overflow:hidden;
-  box-shadow:#7a757559;
+  box-shadow: 0 10px 40px #7a757559;
  
 }
 .octo{
