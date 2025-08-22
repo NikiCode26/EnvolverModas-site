@@ -60,7 +60,7 @@ body{
 .hamburger.active span:nth-child(2){ opacity:0; }
 .hamburger.active span:nth-child(3){ transform:translateY(-8px) rotate(-45deg); }
 
-@media (max-width: 10px){ /*reduzir a página sem modificar os ícones*/
+@media (max-width: 100px){ /*reduzir a página sem modificar os ícones*/
   .nav{ justify-content:space-between;}
   .nav-links.open{ transform:translateY(0); }
   .hamburger{ display:block; }
