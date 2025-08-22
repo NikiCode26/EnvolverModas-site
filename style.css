@@ -173,7 +173,7 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   /* Menu oculto por padrão */
   .nav-links {
     position: absolute;
-    top: 72px;
+    top: 0 px;
     left: 0;
     right: 0;
     flex-direction: column;
@@ -183,7 +183,6 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
     align-items: center;
     transform: translateY(-120%);
     transition: transform .3s ease-in-out;
-    display: none;
   }
 
   /* Menu aberto */
