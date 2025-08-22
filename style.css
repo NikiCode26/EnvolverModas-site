@@ -173,7 +173,7 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   /* Menu oculto por padrão */
   .nav-links {
     position: absolute;
-    top: 10 px;
+    top: 35 px;
     left: 0;
     right: 0;
     flex-direction: column;
