@@ -21,29 +21,29 @@ body{
 
 /* Layout helpers */
 .container{
-  width:min(1120px, 92vw);
+  width:min (1120 px, 92 vw);
   margin-inline:auto;
 }
 .section{ padding: 100 px 0 80 px; }/*modificado*/
-.section.alt{ background:linear-gradient(180deg, transparent 0, rgba(7, 7, 7, 0.08) 100%); }
+.section.alt{ background:linear-gradient (180 deg, transparent 0, rgba (7, 7, 7, 0.08) 100 %); }
 
 /* Header / NavBar (única barra no header) */
 .site-header{
-  position:fixed; top:0px; z-index:50;
-  width: 100%;
-  backdrop-filter:saturate(140%) blur(8px);
-  background:rgba(41, 39, 39, 0.75);
-  border-bottom:1px solid rgba(255,255,255,.06);
+  position:fixed; top:0 px; z-index:50;
+  width: 100 %;
+  backdrop-filter:saturate (140 %) blur (8 px);
+  background:rgba (41, 39, 39, 0.75);
+  border-bottom:1 px solid rgba (255,255,255,.06);
 }
 .nav{
-  height:72px; display:flex; align-items:center; gap:200px;
+  height:72 px; display:flex; align-items:center; gap:200 px;
   
 }
 .brand{
-  display:flex; align-items:center; gap:12px;
-    text-decoration:none; color:var(--text); font-weight:600;
+  display:flex; align-items:center; gap:12 px;
+    text-decoration:none; color: var (--text); font-weight:600;
 }
-.brand img{ width:36px; height:36px; object-fit:cover; border-radius:50%; border:1px solid rgba(255,255,255,.2); }
+.brand img{ width:36 px; height:36 px; object-fit:cover; border-radius:50 %; border:1 px solid rgba (255,255,255,.2); }
 
 .nav-links{ list-style:none; display:flex; gap:28px; margin:0 auto; padding:0; }
 .nav-links a{ color:var(--muted); text-decoration:none; font-weight:500; }
@@ -51,11 +51,11 @@ body{
 
 
 /* Mobile menu */
-.hamburger{ display:none; background:none; border:0; width:42px; height:42px; border-radius:10px; position:relative; }
-.hamburger span{ position:absolute; left:10px; right:10px; height:2px; background:var(--text); transition:.25s; }
-.hamburger span:nth-child(1){ top:12px; }
-.hamburger span:nth-child(2){ top:20px; }
-.hamburger span:nth-child(3){ top:28px; }
+.hamburger{ display:none; background:none; border:0; width:42 px; height:42 px; border-radius:10 px; position:relative; }
+.hamburger span{ position:absolute; left:10 px; right:10 px; height:2 px; background:var(--text); transition:.25s; }
+.hamburger span:nth-child(1){ top:12 px; }
+.hamburger span:nth-child(2){ top:20 px; }
+.hamburger span:nth-child(3){ top:28 px; }
 .hamburger.active span:nth-child(1){ transform:translateY(8px) rotate(45deg); }
 .hamburger.active span:nth-child(2){ opacity:0; }
 .hamburger.active span:nth-child(3){ transform:translateY(-8px) rotate(-45deg); }
@@ -98,23 +98,23 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   position:relative;
   border-radius: var(--radius);
   background: linear-gradient(135deg, var(--gold) 0%, #5d4f1d 100%);
-  padding: 28px;
-  min-height: 340px;
+  padding: 28 px;
+  min-height: 340 px;
   display:flex; align-items:center; justify-content:center;
   overflow:hidden;
-  box-shadow: 0 10px 40px #7a757559;
+  box-shadow: 0 10 px 40 px #7a757559;
  
 }
 .octo{
   background:#0b0b0b;
-  padding: 15px;
-  border-radius: 28px;
+  padding: 15 px;
+  border-radius: 28 px;
   clip-path: polygon(20% 0, 80% 0, 100% 25%, 100% 75%, 80% 100%, 20% 100%, 0 75%, 0 25%);
 }
-.octo img{ width:min(420px, 70vw); height:auto; display:block; border-radius:18px; }
+.octo img{ width:min(420 px, 70 vw); height:auto; display:block; border-radius:18px; }
 
 .rings{
-  position:absolute; bottom:40px; left:52%;
+  position:absolute; bottom:40 px; left:52%;
   width:380px; height:180px;
   background: radial-gradient(transparent 52%, rgba(236,227,207,.12) 53%);
   mask: radial-gradient(circle at center, black 55%, transparent 56%);
@@ -127,14 +127,14 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
 
 /* Footer */
 .footer{
-  padding: 18px 0 26px;
-  border-top:1px solid rgba(255,255,255,.06);
+  padding: 18 px 0 26 px;
+  border-top:1 px solid rgba (255,255,255,.06);
   text-align:center;
   background:#090707;
 }
 .footer p{ margin:0; color:#c9c0a7; }
 
-@media (max-width: 767px) {
+@media (max-width: 767 px) {
   .section {
     padding: 80px 0 60px;
   }
@@ -214,9 +214,9 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   }
 
   .rings {
-    width: 420px;
-    height: 200px;
-    right: -160px;
+    width: 420 px;
+    height: 200 px;
+    right: -160 px;
   }
 
   
