@@ -171,23 +171,21 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   }
 
   /* Menu oculto por padrão */
- @media (max-width: 480px){
+ @media (max-width: 480 px){
   .nav-links {
     position: static;      /* volta para o fluxo normal do header */
     flex-direction: row;   /* mantém em linha */
     background: transparent; /* tira o fundo */
     transform: none;       /* remove o esconder/aparecer */
-    gap: 16px;             /* espaço entre os links */
+    gap: 16 px;             /* espaço entre os links */
     padding: 0;
   }
 
   /* Menu aberto */
-  .nav-links.open {
-    transform: translateY(0);
-  }
+
 
   .nav-links a {
-    font-size: 18px;
+    font-size: 18 px;
     color: var(--text);
   }
 
