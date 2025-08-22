@@ -24,7 +24,7 @@ body{
   width:min(1120px, 92vw);
   margin-inline:auto;
 }
-.section{ padding: 100px 0 80px; }/*modificado*/
+.section{ padding: 100 px 0 80 px; }/*modificado*/
 .section.alt{ background:linear-gradient(180deg, transparent 0, rgba(7, 7, 7, 0.08) 100%); }
 
 /* Header / NavBar (única barra no header) */
@@ -60,7 +60,7 @@ body{
 .hamburger.active span:nth-child(2){ opacity:0; }
 .hamburger.active span:nth-child(3){ transform:translateY(-8px) rotate(-45deg); }
 
-@media (max-width: 10px){ /*reduzir a página sem modificar os ícones*/
+@media (max-width: 10 px){ /*reduzir a página sem modificar os ícones*/
   .nav{ justify-content:space-between;}
   .nav-links.open{ transform:translateY(0); }
   .hamburger{ display:block; }
