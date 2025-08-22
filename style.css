@@ -171,18 +171,14 @@ p{ color:var(--muted); margin: .4rem 0 1rem; }
   }
 
   /* Menu oculto por padrão */
+ @media (max-width: 480px){
   .nav-links {
-    position: absolute;
-    top: 72px;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    background: var(--surface);
-    padding: 16px 0;
-    gap: 18px;
-    align-items: center;
-    transform: translateY(-120%);
-    transition: transform .3s ease-in-out;
+    position: static;      /* volta para o fluxo normal do header */
+    flex-direction: row;   /* mantém em linha */
+    background: transparent; /* tira o fundo */
+    transform: none;       /* remove o esconder/aparecer */
+    gap: 16px;             /* espaço entre os links */
+    padding: 0;
   }
 
   /* Menu aberto */
